@@ -116,6 +116,7 @@ const App = () => {
     GetPlayers();
     GetTeams();
     LoggedIn();
+    var x=0;
   }, []);
 
   return (
