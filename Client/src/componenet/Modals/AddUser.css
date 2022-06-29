@@ -1,0 +1,17 @@
+.MuiTableCell-root {
+    height: 10px !important;
+    padding: 5px !important;
+    font-size: 1rem !important;
+
+}
+
+.MuiToolbar-regular {
+    min-height: 0px;
+}
+
+
+ .MuiPaper-root {
+    background-color: white !important;
+    margin-top: 15px;
+    max-height: 60%;
+}

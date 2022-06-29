@@ -1,0 +1,65 @@
+.MuiTableCell-root {
+    height: 10px !important;
+    padding: 5px !important;
+    font-size: 1rem !important;
+  
+}
+
+
+ .MuiPaper-root {
+    background-color: white !important;
+}
+
+
+.TableImg{
+    width: 40%;
+    border-radius: 50%
+}
+
+.TableProfileImg{
+    width: 40px;
+    border-radius: 50%
+}
+    
+    
+    @media only screen and (max-width: 768px){
+        .TableImg{
+            width: 50%;
+            border-radius: 50%
+        } 
+        .TableProfileImg{
+            width: 30px;
+            border-radius: 50%
+        }   
+
+        .MuiTableCell-root {
+            height: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 1 !important;
+            padding-top: 5px !important;
+            padding-bottom: 5px !important;
+            font-size: 1rem !important;
+        }
+      
+    }
+    
+    
+    @media only screen and (max-width: 400px){
+            .TableImg{
+                width: 50%;
+                border-radius: 50%
+            } 
+            .TableProfileImg{
+                width: 30px;
+                border-radius: 50%
+            }   
+
+            .MuiTableCell-root {
+                height: 100% !important;
+                padding-left: 0 !important;
+                padding-right: 1 !important;
+                padding-top: 5px !important;
+                padding-bottom: 5px !important;
+                font-size: 0.7rem !important;
+            }
+    }

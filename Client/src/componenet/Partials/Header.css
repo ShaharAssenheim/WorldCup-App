@@ -1,0 +1,34 @@
+#dropdwon2{
+    color: white;
+    margin-left: 1em;
+}
+
+.LeftSide{
+    margin-right: auto;
+}
+
+.rightSide{
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.logout{
+  margin-top: 4px;
+}
+
+
+.navbar,
+.navbar-default {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,187,207,1) 44%, rgba(193,200,201,1) 100%);
+}
+
+.navItem {
+    color: white;
+  }
+
+@media only screen and (max-width: 575px){
+
+    #dropdwon2{
+        margin-left: 1.5em;
+    }
+}
