@@ -46,12 +46,12 @@ const Groups = () => {
   ];
 
   return (
-    <Box mt={13} ml={5} mr={5} justifyContent="center" alignItems="center">
+    <Box mt={13} ml={5} mr={5} justifyContent="center" alignItems="center" className="Groups-Container">
       <Grid container spacing={8}>
         <CssBaseline />
         {groups.map(({ GroupID, Teams }) => (
           <Grid item key={GroupID} xs={12} sm={6} md={4} lg={3} >
-            <MaterialTable
+            <MaterialTable 
               title={"Group-" + GroupID}
               data={Teams.sort((a, b) => a.Score < b.Score ? 1 : -1)}
               columns={columns}

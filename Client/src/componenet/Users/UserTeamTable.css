@@ -5,9 +5,8 @@
   
 }
 
-
- .MuiPaper-root {
-    background-color: white !important;
+.MuiPaper-root {
+    background-color: rgba(236, 233, 233, 0.7) !important;
 }
 
 
